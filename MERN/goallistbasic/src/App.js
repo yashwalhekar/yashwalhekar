@@ -11,7 +11,8 @@ function App() {
   ]);
 
   const addNewGoalHandler = (newGoal) => {
-    setGoals([...goals,newGoal])
+    // setGoals([...goals,newGoal])
+    setGoals((prevGoal)=> [...prevGoal,newGoal])//this Approch is faster than prvious one
     console.log(goals);
   };
   return (
