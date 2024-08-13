@@ -2,21 +2,17 @@ import React from 'react'
 import { 
     AppBar, 
     Toolbar, 
-    IconButton, 
-     
+    IconButton,   
     Stack, 
     Button, 
-    Typography, 
-     
-    
+    Typography,    
 } from "@mui/material"; 
 
 import DvrIcon from '@mui/icons-material/Dvr';
  
-const AppbarMui = () => { 
+const MyAppbarMui = () => { 
     return ( 
         <AppBar position="static" color="secondary"> 
-            {/* defualt position of this component is fixed */} 
             <Toolbar> 
                 <IconButton size="large" edge="start" color="inherit" aria-label="logo"> 
                  <DvrIcon/>   
@@ -36,4 +32,4 @@ const AppbarMui = () => {
     ) 
 } 
  
-export default AppbarMui
+export default MyAppbarMui
