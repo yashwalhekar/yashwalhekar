@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: orange;
+  font-size: 30px;
+  height: 100px;
+  color: white;
+  padding: 40px;
+}
+
+
+/* media query */
+
+/* small deckstops */
+
+@media(max-width:1439px){
+   .header{
+    background-color: rgb(224, 213, 85);
+   }
+}
+/* small tablets */
+@media(max-width:1279px){
+  .header{
+   background-color: rgb(112, 239, 222);
+  }
+}
+/* larger phones */
+@media(max-width:767px){
+  .header{
+   background-color: rgb(57, 81, 222);
+  }
+}
+/* ?smaller phones */
+@media(max-width:374px){
+  .header{
+   background-color: rgb(32, 15, 29);
+  }
+}
+
+/* @media (min-width: 375px) {
+  .header {
+    background-color: red;
+  }
+  p{
+    color: white;
+    font-size: 2rem;
+    padding: 2;
+    margin: 4;
+  }
+} */
+/* tablets */
+/* @media (min-width: 768px) {
+    .header {
+      background-color: green;
+    }
+    p{
+        color: white;
+        font-size: 5rem;
+        padding: 2;
+        margin: 4;
+      }
+  } */
+
+/* small deckstops */
+/* @media (min-width: 1280px) {
+    .header {
+      background-color:lightcyan;
+    }
+    p{
+        color: white;
+        font-size: 8rem;
+        padding: 2;
+        margin: 4;
+      }
+    
+  } */
+
+/* larger deckstops */
+/* @media (min-width: 1440px) {
+    .header {
+      background-color:pink;
+    }
+  } */
+
+/* Deckstop  */
